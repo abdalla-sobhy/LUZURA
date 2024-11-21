@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.allProductsGridWrapper{
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+    justify-items: center;
+    margin-top: 5%;
+    padding-bottom: 4rem;
+    column-gap: 50px;
+    row-gap: 6rem;
+}
+.scrollupButton{
+    left: 95%;
+}
+.productContainer{
+    background-image: linear-gradient(to bottom , white 75%, #fde047);
+}

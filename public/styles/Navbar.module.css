@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav{
+    @apply dark:bg-gray-800 dark:border-gray-700 flex flex-row items-center justify-around;
+    box-shadow: 0px 0px 30px gray;   
+}
+.world_s{
+    @apply self-center text-2xl font-semibold whitespace-nowrap dark:text-white;
+    background-image: linear-gradient(to right, #a16207, #eab308);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.dropdown{
+    @apply z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700;
+}
+.showDropdown{
+    @apply z-10 bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700;
+}
+.username{
+    background-image: linear-gradient(to right, #a16207, #eab308);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+input:focus {
+    outline: none;
+}
